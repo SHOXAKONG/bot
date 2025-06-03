@@ -122,3 +122,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'bot.User'
+
+TELEGRAM_CHANNEL_IDS = [-4801314675]
+GROUP_IDS = list(map(int, TELEGRAM_CHANNEL_IDS))
